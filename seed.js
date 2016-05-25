@@ -100,7 +100,7 @@ db.Author.remove({}, function(err, authors) {
       return;
     }
     console.log('recreated all authors');
-    console.log("created", authors.length, "authors");
+    console.log('created', authors.length, 'authors');
 
 
     db.Book.remove({}, function(err, books){
